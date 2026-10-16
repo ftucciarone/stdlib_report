@@ -1,0 +1,12 @@
+name = "stdlib_report"
+version = "0.1.0"
+license = "MIT"
+author = "Francesco Tucciarone"
+maintainer = "43784914+ftucciarone@users.noreply.github.com"
+copyright = "Copyright 2026, Francesco Tucciarone"
+
+[dependencies]
+stdlib = "*"
+
+[dev-dependencies]
+test-drive = { git = "https://github.com/fortran-lang/test-drive", tag = "v0.4.0" }
